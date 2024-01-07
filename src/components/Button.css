@@ -1,0 +1,24 @@
+.parentContainer {
+    width: 70px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 4px;
+    background: linear-gradient(200deg, hsl(163, 84%, 46%), hsl(240, 2%, 27%));
+    cursor:pointer;
+
+}
+
+.childContainer {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+
+}
+
+.childContainer.toggled {
+    transform: translateX(130%);
+    /* Adjust the value based on your needs */
+}
